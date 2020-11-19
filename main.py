@@ -29,7 +29,17 @@ def prime(n) :
         i = i + 6
   
     return True
+def bin32bits(n) :
+    
+    return '{:032b}'.format(n)
 
+def listtranspose(l) :
+    
+    l = list(zip(*l)) 
+    
+    return l 
+
+    
 
 def divisors(n) : 
       
